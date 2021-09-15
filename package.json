@@ -1,0 +1,19 @@
+{
+  "name": "alfa-ikebukuro-13",
+  "version": "0.0.0",
+  "scripts": {
+    "css": "sass assets/css/style.scss:assets/css/style.css",
+    "prefix": "postcss assets/css/style.css --use autoprefixer -d assets/css/"
+  },
+  "browserslist": [
+    "> 1% in JP",
+    "last 2 version",
+    "Firefox ESR"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1",
+    "sass": "^1.41.0"
+  }
+}
