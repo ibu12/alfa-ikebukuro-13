@@ -199,6 +199,8 @@ Youtube貼り付けここまで -->
         <!-- STAGE2クリア画面　ここまで -->
       </div>
       <!-- STAGE2　ここまで -->
+    
+    
       <!-- STAGE3　ここから -->
       <div v-if="next['stage２']" id="sectionStage３" class="stage">
          <!-- STAGE3-1問題セクション　ここから -->
@@ -215,36 +217,20 @@ Youtube貼り付けここまで -->
             </figure>
           </div>
         </section>
-        <!-- STAGE４　ここから -->
-      <div v-if="next['stage３']" id="sectionStage４" class="stage">
+      
         
 
-        <!-- STAGE４-1問題セクション　ここから -->
-        <section class="section">
-          <div class="container">
-            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：3</span>この事件は、自殺？</h2>
-            <p class="text-center"><br>
-              ホームズは、考えた、「わざわざ、人目のつく場所でありながら、自殺をするのか？彼は、他殺かもしくは、生きているのでは？」と。。
-              ホームズは、直感で生きていると感じた、生きている場合、疑いのある、クリスを恨んでいたジャックは、よく『花』を見ていた、一体どこに連れ去ったの。。。
-              この問題を解いたホームズは、クリスは、発見出来なかった、だが、しかし、クリスを見つけるヒントは得られたという。さあ、ホームズは何を見たのか<br>
-              この事件を解決するため、謎を解いていこう！</p>
-            <figure class="image__container">
-              <img src="assets/images/stage５.png" alt="">
-            </figure>
-          </div>
-        </section>
-        <!-- STAGE3-1問題セクション　ここまで -->
-
-        <!-- STAGE４-1解答入力セクションここから -->
+     
+        <!-- STAGE３-1解答入力セクションここから -->
         <section class="section bg-color--keycolor">
           <div class="container">
-            <h2 class="section-title"><span class="section-title__stage">STAGE：４</span>キーワードを入力</h2>
+            <h2 class="section-title"><span class="section-title__stage">STAGE：３</span>キーワードを入力</h2>
             <!-----------------------------------------------------------------------------------------------------------------
               解答入力欄のコンポーネントです。
               v-on:answer-input="answerInput($event, 'stage3', 1, 'final')" は送信ボタンをクリックした時の動作を決める関数です。
               4番目の引数 'final' は最終ステージを表します。
             ------------------------------------------------------------------------------------------------------------------>
-            <answer-input v-bind:correct="correctAnswer['stage４']['q1']" v-on:answer-input="answerInput($event, 'stage４', 1, 'final')"></answer-input>
+            <answer-input v-bind:correct="correctAnswer['stage３']['q1']" v-on:answer-input="answerInput($event, 'stage３', 1, 'final')"></answer-input>
             <a class="link-hint" href="hint3.html" target="hint3">ヒントをみる ></a>
           </div>
         </section>
