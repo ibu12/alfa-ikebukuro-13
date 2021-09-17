@@ -23,7 +23,7 @@
   </header>
   <main class="main main-page">
     <!-- タイトルエリア　ここから -->
-    <h1 class="main-title"><img src="assets/images/title1.png" alt="漆黒の幕間からの脱出"></h1>
+    <h1 class="main-title"><img src="assets/images/title3.png" alt="漆黒の幕間からの脱出"></h1>
     <!-- タイトルエリア　ここまで -->
     <div id="stage">
 
@@ -34,13 +34,13 @@
         <section class="section">
           <div class="container">
             <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：1</span>さぁゲームを始めよう！</h2>
-            <p class="text-center">さあ、劇の始まりかと思ったら。。あちゃ。。このポンコツさんは、電気さえつけられないみたい、この、電球、マイク、ウェブカメラ、一度で全ての電源を入れるには、何をしたらいいのか教えてあげよう！<br>
+            <p class="text-center">さあ、劇の始まりかと思ったら。。あちゃ。。このポンコツさんは、電気さえつけられないみたい、この、家庭用電灯、電話機、エレベータ、一度で全ての電源を入れるには、何をしたらいいのか教えてあげよう！<br>
               下の画像の謎を解き、なんのスイッチをつければ一斉につくか、キーワード欄に入力しよう。</p>
             <p class="text-center">困ったときは、ヒントがある。なるべく見ないようにゲームを進めていこう。</p>
   
             <div class="container">
               <figure class="image__container">
-                <img src="assets/images/stage1.png" alt="">
+                <img src="assets/images/stage5.png" alt="">
               </figure>
                 
  <!--  YouTube貼り付け
@@ -87,7 +87,7 @@ Youtube貼り付けここまで -->
               <div class="clear-message__title">STAGE：１  クリア！</div>
               <div class="clear-message__content">一つ目の謎が解けた！<br>
                 さぁホームズを探偵のするため<br>
-                ３つステージの謎をとき、暗号を見つけ出そう！</div>
+                5つステージの謎をとき、暗号を見つけ出そう！</div>
               <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -112,8 +112,8 @@ Youtube貼り付けここまで -->
                 すぐに目に入ったのはこの自殺の謎。<br>
                 今回の事件は「自殺」だった。。。<br>
                 死亡者は、船の整備士班長のクリスだ。何時頃か特定するため、他の整備士たちに聞いてみた。。君たちには分かるかな。。。<br>
-              　　　　整備士「ジェニー」班長のくつを海で見つけた時はね。。黒い服の人達が歩いていたわ。。<br>
-              　　　　整備士「ロビン」ん、班長？ああ、くつ見つけた時は、信号機くらいしか明かりはついてなかったね。<br>
+              　　　　整備士「ジェニー」[班長のくつを海で見つけた時はね。。黒い服の人達が歩いていたわ。。]<br>
+              　　　　整備士「ロビン」[ん、班長？ああ、くつ見つけた時は、信号機くらいしか明かりはついてなかったね。]<br>
               　　　　これで証言は全てだ。もうわかったかな？<br>
                 これらを解くことで、きっと次のステップに繋がるはずだ！</p>
             <figure class="image__container">
@@ -195,7 +195,7 @@ Youtube貼り付けここまで -->
       </div>
       <!-- STAGE2　ここまで -->
 
-      <!-- STAGE3　ここから -->
+     <!-- STAGE3　ここから -->
       <div v-if="next['stage2']" id="sectionStage3" class="stage">
 
         <!-- STAGE3-1問題セクション　ここから -->
@@ -214,7 +214,8 @@ Youtube貼り付けここまで -->
         </section>
         <!-- STAGE3-1問題セクション　ここまで -->
 
-        <!-- STAGE3-1解答入力セクションここから -->
+
+       <!-- STAGE3-1解答入力セクションここから -->
          <section class="section bg-color--keycolor">
           <div class="container">
             <h2 class="section-title"><span class="section-title__stage">STAGE：3</span>キーワードを入力</h2>
@@ -232,13 +233,14 @@ Youtube貼り付けここまで -->
             <div class="clear-message">
               <div class="clear-message__title">STAGE：３  クリア！</div>
               <div class="clear-message__content">３つ目の謎が解けた！<br>
-                さぁホームズを探偵のするため<br>
-                ５つステージの謎をとき、暗号を見つけ出そう！</div>
+                ホームズを本物の探偵にするため<br>
+                ５つステージの謎をとき、クリスを見つけ出そう！</div>
               <button v-on:click="nextStage('stage3')" onclick="location.href='#sectionStage4'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
         </section>
         <!-- STAGE３クリア画面　ここまで -->
+
 
 <!-- STAGE3-2問題セクション を追加
 
@@ -292,14 +294,12 @@ STAGE3-3追加　ここまで -->
         <!-- STAGE4-1問題セクション　ここから -->
         <section class="section">
           <div class="container">
-            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：4</span>この事件は、自殺？</h2>
+            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：4</span>この小包の中は。。？</h2>
             <p class="text-center"><br>
-              ホームズは、考えた、「わざわざ、人目のつく場所でありながら、自殺をするのか？彼は、他殺かもしくは、生きているのでは？」と。。
-              ホームズは、直感で生きていると感じた、生きている場合、疑いのある、クリスを恨んでいたジャックは、よく『花』を見ていた、一体どこに連れ去ったの。。。
-              この問題を解いたホームズは、クリスは、発見出来なかった、だが、しかし、クリスを見つけるヒントは得られたという。さあ、ホームズは何を見たのか<br>
-              この事件を解決するため、謎を解いていこう！</p>
+              ヒノキの枝に小包があった。。。
+              Jの裏切り者よりと書いてある、この小包の中に、一枚の紙が入っていた。。一体なんだろう、、君には分かるかな？</p>
             <figure class="image__container">
-              <img src="assets/images/stage3.png" alt="">
+              <img src="assets/images/stage6.png" alt="">
             </figure>
           </div>
         </section>
@@ -308,7 +308,7 @@ STAGE3-3追加　ここまで -->
         <!-- STAGE4-1解答入力セクションここから -->
         <section class="section bg-color--keycolor">
           <div class="container">
-            <h2 class="section-title"><span class="section-title__stage">STAGE：3</span>キーワードを入力</h2>
+            <h2 class="section-title"><span class="section-title__stage">STAGE：4</span>キーワードを入力</h2>
             <!-----------------------------------------------------------------------------------------------------------------
               解答入力欄のコンポーネントです。
               v-on:answer-input="answerInput($event, 'stage3', 1, 'final')" は送信ボタンをクリックした時の動作を決める関数です。
@@ -319,6 +319,7 @@ STAGE3-3追加　ここまで -->
           </div>
         </section>
         <!-- STAGE4-1解答入力セクション　ここまで -->
+       
 
     
 
